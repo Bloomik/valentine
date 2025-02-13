@@ -61,7 +61,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            Will you be my drinking partner?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
