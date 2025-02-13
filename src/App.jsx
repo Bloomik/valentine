@@ -58,7 +58,7 @@ export default function Page() {
           />
           <img
             className="h-[230px] rounded-lg shadow-lg"
-            src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://cdn.discordapp.com/attachments/1137469292691079188/1339688176876392580/IMG_6148.jpg?ex=67afa157&is=67ae4fd7&hm=99a27faaa66225ccb1a2641c6dbbfd59a4657163ea0487a3468c35cf612b93e8&"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Will you be my drinking partner?
