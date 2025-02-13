@@ -13,25 +13,25 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+"No",
+"Jesteś pewien?",
+"Na pewno?",
+"Przemyśl to jeszcze raz!",
+"Ostatnia szansa!",
+"Chyba nie?",
+"Możesz tego żałować!",
+"Przemyśl to ponownie!",
+"Jesteś absolutnie pewien?",
+"To może być błąd!",
+"Miej serce!",
+"Nie bądź taki zimny!",
+"Zmiana decyzji?",
+"Nie chciałbyś się zastanowić jeszcze raz?",
+"To twoja ostateczna odpowiedź?",
+"Łamiesz mi serce ;(",
+"To twoja ostateczna odpowiedź?",
+"Łamiesz mi serce ;(",
+"Proszę? :( Łamiesz mi serce",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -69,13 +69,13 @@ export default function Page() {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
-              Yes
+              Tak!
             </button>
             <button
               onClick={handleNoClick}
               className=" bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-2 px-4"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "Nie" : getNoButtonText()}
             </button>
           </div>
         </>
@@ -89,7 +89,7 @@ const Footer = () => {
   return (
     <a
       className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/Xeven777/valentine"
+      href="https://cdn.discordapp.com/attachments/1006274084860084364/1329254627274788957/IMG_3486.jpg?ex=67af3f17&is=67aded97&hm=f4aa4e00b2512b814a188fcf0aaf823a08e74fe6757b304a6381f4e55ae20879&"
       target="__blank"
     >
       Made with{" "}
